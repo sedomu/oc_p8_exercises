@@ -27,6 +27,63 @@
     <button onclick="appendToDisplay('/')">/</button>
 </div>
 <script src="./index.js"></script>
+<script>
+    let display = document.querySelector('#display');
+
+    function appendToDisplay(term){
+        display.value += term;
+    }
+
+    function clearDisplay(){
+        display.value = '';
+    }
+
+    function calculateResult(){
+        let operation = display.value;
+        let firstNumber = 0;
+        let operator = "";
+        let secondNumber = 0;
+        let cursor = 0;
+        let result = 0;
+
+        while(!isNaN(Number(operation[cursor]))) {
+            firstNumber = firstNumber * 10 + Number(operation[cursor]);
+            cursor++;
+        }
+
+        operator = operation[cursor];
+        cursor++;
+
+        while(!isNaN(Number(operation[cursor])) && cursor < operation.length) {
+            secondNumber = secondNumber * 10 + Number(operation[cursor]);
+            cursor++;
+        }
+
+        switch(operator) {
+            case "+":
+                result = firstNumber + secondNumber;
+                break;
+            case "-":
+                result = firstNumber - secondNumber;
+                break;
+            case "*":
+                result = firstNumber * secondNumber;
+                break;
+            case "/":
+                if (secondNumber === 0){
+                    result = "Division by zero is not allowed";
+                } else {
+                    result = firstNumber / secondNumber;
+                }
+                break;
+        }
+
+        display.value = result;
+    }
+
+
+
+</script>
 </body>
 
 </html>

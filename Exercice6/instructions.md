@@ -13,3 +13,7 @@ Voici les fonctionnalités attendues :
 Vous pouvez utiliser les événements JavaScript tels que `onclick()` pour gérer les clics sur les boutons et les opérations correspondantes.
 
 > Si vous avez des difficultés, vous pouvez vous référer aux cours [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript), [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/7527306-decouvrez-le-fonctionnement-des-algorithmes), et [Créez des pages web dynamiques avec JavaScript](https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript).
+
+# Résultats
+
+![img.png](img.png)
