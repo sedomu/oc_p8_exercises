@@ -26,3 +26,7 @@ Par exemple, pour convertir le nombre décimal 10 en binaire :
 En lisant les restes de bas en haut (1010), on obtient la représentation binaire du nombre décimal 10.
 
 > Si vous avez des difficultés, vous pouvez vous référer aux cours [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/7696886-apprenez-a-programmer-avec-javascript), [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/7527306-decouvrez-le-fonctionnement-des-algorithmes), et [Créez des pages web dynamiques avec JavaScript](https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript).
+
+# Résultats
+
+![img.png](img.png)
