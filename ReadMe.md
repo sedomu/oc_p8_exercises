@@ -1,39 +1,64 @@
-# Projet 8 : Testez vos compétences, les algorithmes en Javascript
+# OpenClassrooms – Project 8 Algorithms in JavaScript Assessment
 
-Pour commencer le projet lancez la commande `npm install` qui installera les dépendences du projet.
+## 📌 Description
 
-Ensuite vous pourrez réaliser les différents exercices.
+Source code of **Project 8 – Test your skills: Algorithms in JavaScript**, completed as part of the **OpenClassrooms JavaScript React Developer path**.
 
-Pour vérifier que votre exercice est correctement réalisé vous n'avez qu'à lancer la commande `npm start` puis la commande `npm run test` vous verrez alors s'afficher l'application `Cypress`. Sélectionnez `E2E Testing` puis sélectionnez le navigateur dans lequel vous voulez lancer vos test.
+This project is a **set of seven interactive exercises** designed as a **technical self-assessment** to practice and validate core skills in **JavaScript, algorithms, event-driven programming** as well as **HTML accessibility and semantic best practices**.
 
-Si votre code est correctement réalisé alors les tests seront décrits en vert
+Each exercise focuses on a specific aspect of web development, and all solutions were validated using **automated Cypress tests**.
 
-# Résultats
+⚠️ **Educational project**: This repository was created for learning purposes during my training. It is **not intended for production use**.
 
-## Exercice 1
+---
 
-![img.png](Exercice1/img.png)
+## 🎯 Learning Objectives
 
-## Exercice 2
+- Practise JavaScript syntax in a structured programming paradigm
+- Implement and analyse algorithms in JavaScript
+- Apply event-driven programming concepts
+- Reinforce HTML accessibility and semantic best practices
 
-![img.png](Exercice2/img.png)
+---
 
-## Exercice 3
+## 👀 Preview
 
-![img.png](Exercice3/img.png)
+Each folder (`Exercice1` → `Exercice7`) contains one exercise solution.
 
-## Exercice 4
+All exercises were validated with a **Cypress test suite** provided by **OpenClassrooms**.
+Each solution passed the provided test suite successfully.
 
-![img.png](Exercice4/img.png)
+| Exercise | Status   |
+|----------|----------|
+| 01       | ✅ Passed |
+| 02       | ✅ Passed |
+| 03       | ✅ Passed |
+| 04       | ✅ Passed |
+| 05       | ✅ Passed |
+| 06       | ✅ Passed |
+| 07       | ✅ Passed |
 
-## Exercice 5
+*(See `img.png` in each exercise folder for test validation images.)*
 
-![img.png](Exercice5/img.png)
+---
 
-## Exercice 6
+## 🏗 Project structure
 
-![img.png](Exercice6/img.png)
+- Each `Exercice` folder contains:
+    - An `instructions.md` file with the exercise statement
+    - A solution implemented in JavaScript
+    - An `img.png` file for Cypress test validation results
 
-## Exercice 7
+---
 
-![img.png](Exercice7/img.png)
+## 🛠 Tech stack
+
+* JavaScript (Vanilla)
+* [Cypress](https://www.cypress.io/) for automated validation
+
+---
+
+## ⚠️ Disclaimer
+
+This is a **training project** created as part of the OpenClassrooms curriculum.
+It is not a complete application but a **set of standalone exercises** intended for **skill practice and self-assessment**.
